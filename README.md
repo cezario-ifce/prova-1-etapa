@@ -8,7 +8,6 @@ O projeto base já contém:
 
 - `pom.xml` — dependências configuradas
 - `application.properties` — banco H2 em memória já configurado
-- `schema.sql` — estrutura da tabela `filme`
 - `data.sql` — dados de exemplo
 - `FilmeApplication.java` — classe principal da aplicação
 
