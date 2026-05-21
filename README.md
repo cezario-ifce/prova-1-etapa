@@ -95,7 +95,6 @@ List<Filme> findByGeneroOrderByNotaDesc(String genero);
 
 Você pode usar:
 
-- **Query Methods** (derivação pelo nome do método), **ou**
 - A anotação `@Query` com JPQL, **ou**
 - `@Query` com SQL nativo (`nativeQuery = true`)
 
