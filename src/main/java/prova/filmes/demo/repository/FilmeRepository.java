@@ -9,4 +9,5 @@ import prova.filmes.demo.Entity.FilmeEntity;
 
 public interface FilmeRepository extends
         JpaRepository<FilmeEntity, Integer> {
+
 }

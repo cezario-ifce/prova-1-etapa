@@ -33,5 +33,6 @@ public class FilmeController {
     public ResponseEntity<?> editarFilme(@PathVariable Integer id,
                                           @RequestBody FilmeEntity Filme){
         return FilmeService.editar(id, Filme);
+
     }
 }

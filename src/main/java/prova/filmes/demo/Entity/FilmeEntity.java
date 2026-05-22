@@ -14,6 +14,7 @@ public class FilmeEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+
     private String titulo;
     private String diretor;
     private Date ano_lancamento;

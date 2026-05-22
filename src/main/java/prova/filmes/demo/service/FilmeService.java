@@ -43,6 +43,7 @@ public class FilmeService {
     }
     public ResponseEntity<?> editar(Integer id, FilmeEntity filmeAtualizado){
         try{
+
             FilmeEntity filme = (FilmeEntity) filmeRepository.findById(id).orElseThrow(() ->
                     new RuntimeException("Filme não encontrada"));
 
